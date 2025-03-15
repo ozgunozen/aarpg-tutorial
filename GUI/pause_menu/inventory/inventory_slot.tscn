@@ -1,10 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dndwapovgam4d"]
+[gd_scene load_steps=3 format=3 uid="uid://dndwapovgam4d"]
 
-[ext_resource type="Texture2D" uid="uid://bmjan6873e3h5" path="res://Items/sprites/items.png" id="1_kg6hg"]
 [ext_resource type="Script" path="res://GUI/pause_menu/inventory/scripts/inventory_slot_ui.gd" id="1_tj4td"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u5lii"]
-atlas = ExtResource("1_kg6hg")
 region = Rect2(0, 0, 32, 32)
 
 [node name="InventorySlot" type="Button"]
